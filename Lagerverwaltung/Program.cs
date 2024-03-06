@@ -99,7 +99,7 @@ class Program
         Article newArticle = new Article(name, description, price, stock);
         articles.Add(newArticle);
 
-        Console.WriteLine("Artikel erfolgreich hinzugefügt.");
+        Console.WriteLine("Artikel erfolgreich hinzugefügt."); 
     }
 
     static void SearchArticle()
